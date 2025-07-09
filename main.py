@@ -85,3 +85,9 @@ if first_choice == 1:
             keys = input("Hand over the SACRED KEY, Oh chosen one to decrypt the message: ")
             decrypted_result = decrypt(encrypted_bytes, keys)
             print(f"Decrypted message: {decrypted_result}")
+            
+            
+
+secret = int(input())
+if secret == 1337:
+    print("Thanks to my friends RE70-DECEMBER and Milo")
